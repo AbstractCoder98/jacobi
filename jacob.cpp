@@ -68,11 +68,11 @@ int main(int argc, char** argv)
     unsigned tstart, tend;
     //char* fname;
 
-    int prueba = atoi(argv[1]);
+    //int prueba = atoi(argv[1]);
 
     /* Procesar argumentos */
-    n      = 10000;
-    nsteps = 10000;
+    n      = atoi(argv[1]);
+    nsteps = n;
     //fname  = (argc > 3) ? argv[3] : NULL;
     h      = 1.0/n;
 
